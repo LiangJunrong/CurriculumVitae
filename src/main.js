@@ -4,7 +4,12 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-import '../static/css/reset.css' /**引入样式重置 */
+// 引入样式重置
+import '../static/css/reset.css'
+
+// 引入及使用 ElementUI
+import {Row, Col} from 'element-ui';
+Vue.use(Row).use(Col);
 
 new Vue({
   el: '#app',
