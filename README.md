@@ -1,7 +1,7 @@
-basic-configuration
+overall-configuration
 ===
 
-&emsp;基础版代码
+&emsp;布局完整版代码
 
 # 使用方法
 
