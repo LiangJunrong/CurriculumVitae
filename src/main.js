@@ -6,6 +6,8 @@ Vue.config.productionTip = false
 
 // 引入样式重置
 import '../static/css/reset.css'
+
+// 引入 ElementUI 响应式断点
 import 'element-ui/lib/theme-chalk/display.css';
 
 // 引入及使用 ElementUI
