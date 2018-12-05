@@ -6,6 +6,7 @@ Vue.config.productionTip = false
 
 // 引入样式重置
 import '../static/css/reset.css'
+import 'element-ui/lib/theme-chalk/display.css';
 
 // 引入及使用 ElementUI
 import {Row, Col} from 'element-ui';
