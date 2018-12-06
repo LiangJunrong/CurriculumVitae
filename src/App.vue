@@ -7,13 +7,13 @@
     </div>
     <!-- 第一行 -->
     <el-row>
-      <el-col :xs="24" :sm="24" :md="6" :lg="6" :xl="6" class="part">
+      <el-col :xs="24" :sm="24" :md="5" :lg="6" :xl="5" class="part">
         <router-view name="PartOne"/>
       </el-col>
-      <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="part">
+      <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="8" class="part">
         <router-view name="PartTwo"/>
       </el-col>
-      <el-col :xs="24" :sm="24" :md="6" :lg="6" :xl="6" class="part">
+      <el-col :xs="24" :sm="24" :md="7" :lg="6" :xl="7" class="part">
         <router-view name="PartThree"/>
       </el-col>
     </el-row>
@@ -63,7 +63,7 @@ body {
   width: 100%;
   height: 80px;
 }
-p {
-  text-align: center;
+.BMap_cpyCtrl, .BMap_noprint, .anchorBL {
+  display: none !important;
 }
 </style>
