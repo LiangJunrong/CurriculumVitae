@@ -13,7 +13,7 @@
       <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="8" class="part">
         <router-view name="PartTwo"/>
       </el-col>
-      <el-col :xs="24" :sm="24" :md="7" :lg="6" :xl="7" class="part">
+      <el-col :xs="24" :sm="24" :md="7" :lg="6" :xl="11" class="part">
         <router-view name="PartThree"/>
       </el-col>
     </el-row>
