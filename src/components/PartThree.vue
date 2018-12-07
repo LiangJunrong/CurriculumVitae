@@ -21,17 +21,24 @@ export default {
       let myChart = echarts.init(document.getElementById("part-three"));
 
       myChart.setOption({
+        // 标题
         title: {
+          // 标题文本
           text: "技能分布图",
+          // 标题样式
           textStyle: {
             color: "#fff"
           },
+          // 标题位置
           x: "center"
         },
+        // 移动显示
         tooltip: {
           trigger: "item",
+          // 显示文字样式
           formatter: "{a} <br/>{b} : {d}%"
         },
+        // 注记
         legend: {
           x: "center",
           y: "bottom",
@@ -40,7 +47,9 @@ export default {
           },
           data: [ "HTML5", "CSS3", "JavaScript", "jQuery", "Vue", "Node", "微信小程序", "其他" ]
         },
+        // 注记显示手柄
         calculable: true,
+        // 图形系列
         series: [
           {
             name: "技能分布",
@@ -59,8 +68,8 @@ export default {
             ]
           }
         ],
-        color: ['#00bfff','#00ffdd','#207ffc','#00ffea']
-        // color: ['rgb(254,67,101)','rgb(252,157,154)','rgb(249,205,173)','rgb(200,200,169)','rgb(131,175,155)']
+        // 颜色调整
+        color: ['#00bfff', '#00ffdd', '#207ffc', '#00aeff', "#00eeff", "#006eff", "#0099ff", "#0066ff"]
       });
     }
   }
@@ -74,6 +83,5 @@ export default {
   border: 40px solid transparent;
   border-image: url("~@/./assets/img/border_image.png") 30 30 stretch;
   background: #18202d;
-  color: #00ffea;
 }
 </style>
