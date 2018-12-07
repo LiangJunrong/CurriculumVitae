@@ -1,5 +1,5 @@
 <template>
-  <div class="part-three" id="part-three"></div>
+  <div :class="partThree" id="part-three"></div>
 </template>
 
 <script>
@@ -10,7 +10,16 @@ let echarts = require("echarts/lib/echarts");
 export default {
   name: "partThree",
   data() {
-    return {};
+    return {
+      partThree: "part-three",
+      curWidth: 0
+    };
+  },
+  beforeMount() {
+    this.curWidth = document.documentElement.clientWidth || document.body.clientWidth;
+    if(this.curWidth < 1600) {
+      this.partThree = "part-three-responsive"
+    }
   },
   mounted() {
     this.drawECharts();
@@ -81,6 +90,13 @@ export default {
   width: 100%;
   height: 500px;
   border: 40px solid transparent;
+  border-image: url("~@/./assets/img/border_image.png") 30 30 stretch;
+  background: #18202d;
+}
+.part-three-responsive {
+  width: 100%;
+  height: 500px;
+  border: 10px solid transparent;
   border-image: url("~@/./assets/img/border_image.png") 30 30 stretch;
   background: #18202d;
 }

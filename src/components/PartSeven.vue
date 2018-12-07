@@ -20,7 +20,7 @@ export default {
   },
   beforeMount() {
     this.curWidth = document.documentElement.clientWidth || document.body.clientWidth;
-    if(this.curWidth < 1000) {
+    if(this.curWidth < 1600) {
       this.partSeven = "part-sevev-responsive"
     }
   }
