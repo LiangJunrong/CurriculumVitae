@@ -38,8 +38,9 @@ export default {
         },
         // 横轴
         xAxis: {
+          show: false,
           type: "category",
-          data: ["Github 提交", "Github Star数", "掘金点赞量", "掘金阅读量"],
+          data: ["Github 提交：\n1141", "Github Star数：\n269", "掘金点赞量：\n1508", "掘金阅读量：\n234"],
           axisLine: {
             lineStyle: {
               color: "#fff"
@@ -57,6 +58,10 @@ export default {
             lineStyle: {
               color: "#fff"
             }
+          },
+          axisLabel: {
+            // 横轴信息全部显示
+            interval: 0
           }
         },
         // 图形系列
@@ -65,17 +70,19 @@ export default {
             // 图类型
             type: "bar",
             // 数据
-            data: [1141, 269, 1508,234],
+            data: [1141, 269, 1508, 234],
             // 文本
             label: {
               show: true,
               position: "top",
               color: "#fff",
+              formatter: "{b}"
             },
             // 柱条样式
             itemStyle: {
               color: "deepskyblue"
-            }
+            },
+            zlevel: 1
           }
         ]
       });

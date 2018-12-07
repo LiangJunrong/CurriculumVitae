@@ -1,21 +1,10 @@
-# curriculum-vitae
+ECharts 打造个人线上简历
+===
 
-> ECharts for CV
+> 配合攻略，食用更佳：[攻略](https://github.com/LiangJunrong/document-library/blob/master/JavaScript-library/ECharts/CurriculumVitae.md)
 
-## Build Setup
+# 使用方法
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* 安装依赖：npm install
+* 开发模式：npm run dev
+* 打包模式：npm run build
