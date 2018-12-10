@@ -7,9 +7,9 @@
     <p>年&emsp;&emsp;龄：23</p>
     <p>联系电话：18818881888</p>
     <p>电子邮箱：1741020489@qq.com</p>
-    <p>博&emsp;&emsp;客：<a href="http://jsliang.top">jsliang.top</a></p>
-    <p>掘&emsp;&emsp;金：<a href="https://juejin.im/user/584613ba128fe10058b3cf68">jsliang</a></p>
-    <p>GitHub：<a href="https://github.com/LiangJunrong">LiangJunrong</a></p>
+    <p>博&emsp;&emsp;客：<a href="http://jsliang.top" target="_blank">jsliang.top</a></p>
+    <p>掘&emsp;&emsp;金：<a href="https://juejin.im/user/584613ba128fe10058b3cf68" target="_blank">jsliang</a></p>
+    <p>GitHub：<a href="https://github.com/LiangJunrong" target="_blank">LiangJunrong</a></p>
   </div>
 </template>
 
